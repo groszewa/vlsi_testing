@@ -1,0 +1,76 @@
+# //  ModelSim SE-64 10.6 Dec 13 2016Linux 2.6.32-642.11.1.el6.x86_64
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# Model Technology ModelSim SE-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+# Start time: 23:22:55 on Apr 19,2017
+# vlog -reportprogress 300 ./lfsr.v ./lfsr_tb.v ./bist_controller.v ./misr.v 
+# -- Compiling module lfsr
+# -- Compiling module top
+# -- Compiling module bist_controller
+# -- Compiling module misr
+# 
+# Top level modules:
+# 	top
+# End time: 23:22:55 on Apr 19,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt top 
+# Start time: 23:22:56 on Apr 19,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v2/work.top
+# Loading work.top
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v2/work.bist_controller
+# Loading work.bist_controller
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v2/work.lfsr
+# Loading work.lfsr
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v2/work.misr
+# Loading work.misr
+# ** Note: $stop    : ./lfsr_tb.v(41)
+#    Time: 1045 ns  Iteration: 0  Instance: /top
+# Break in Module top at ./lfsr_tb.v line 41
+add wave -position insertpoint  \
+sim:/top/u1/SCAN_CHAIN_LENGTH \
+sim:/top/u1/LFSR_R \
+sim:/top/u1/TOTAL_PATTERNS \
+sim:/top/u1/START \
+sim:/top/u1/SHIFT_IN \
+sim:/top/u1/EVAL_PAT \
+sim:/top/u1/SHIFT_OUT_LAST \
+sim:/top/u1/DONE \
+sim:/top/u1/cut_scanmode \
+sim:/top/u1/cut_sdi \
+sim:/top/u1/bistdone \
+sim:/top/u1/bistpass \
+sim:/top/u1/clk \
+sim:/top/u1/rst \
+sim:/top/u1/bistmode \
+sim:/top/u1/cut_sdo \
+sim:/top/u1/ff_iter \
+sim:/top/u1/out_ready \
+sim:/top/u1/state \
+sim:/top/u1/lfsr_en \
+sim:/top/u1/misr_en \
+sim:/top/u1/misr_signature \
+sim:/top/u1/golden_signature \
+sim:/top/u1/out \
+sim:/top/u1/out_misr \
+sim:/top/u1/sdi_count \
+sim:/top/u1/sdo_count \
+sim:/top/u1/pattern_out
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run -all
+# ** Note: $stop    : ./lfsr_tb.v(41)
+#    Time: 1045 ns  Iteration: 0  Instance: /top
+# Break in Module top at ./lfsr_tb.v line 41
+# Break key hit

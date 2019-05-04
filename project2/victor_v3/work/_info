@@ -1,0 +1,192 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3
+vbist_controller
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 jJFVRV93WBo11WED>5ARR1
+IKc[W[ZU`^o=3WjJ4Ah?A;3
+R0
+Z2 w1492754010
+Z3 8./project.v
+Z4 F./project.v
+L0 63
+Z5 OL;L;10.6;65
+Z6 !s108 1492754036.000000
+Z7 !s107 ./project.v|./scan_cut.v|./testbench.v|
+Z8 !s90 -reportprogress|300|./testbench.v|./scan_cut.v|./project.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vbist_hardware
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 hMZ4YZ2hBj8hU2l57RF@c0
+IG?HPF;iQ=9oN=2Wc>zgiO2
+R0
+R2
+R3
+R4
+L0 1
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vchip
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Mebke]aCQH7bahiMF5JRo1
+ICZPNF?hE;e8]>W2NBb]GG2
+R0
+R2
+R3
+R4
+L0 31
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vlfsr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mBPH@j1@<VV;aIh7MWL8:2
+I9oSbl=j_7bH=E<j?94OMm0
+R0
+R2
+R3
+R4
+L0 307
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vmisr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 IPn>i[mV@C5lE_CECG?b;3
+Ijaz7AFWI@2aPiD7075`9T2
+R0
+R2
+R3
+R4
+L0 350
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vMUX21H
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @S>OlYk127VD1?NT3PV;P1
+IL4HKlZ=8C>V[@a=9NX;ac1
+R0
+Z11 w1492730478
+Z12 8./scan_cut.v
+Z13 F./scan_cut.v
+L0 8
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@m@u@x21@h
+vscan_cut
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 c0QTB5AUR>KSN3^cZK^7W2
+IHJUlY9CPGgV5030H8FkBa0
+R0
+R11
+R12
+R13
+L0 44
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vscan_dff
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 j35cgNZ85aa4QWX9`i0hV0
+I@G`1MaP9gQdgO4PODz<JD2
+R0
+R11
+R12
+R13
+L0 22
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vTOP_ctl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :I>X<<P^8kMcHhI>6QNjM1
+I6nB4U;XCL>R3OaNOgVSLF2
+R0
+w1492748933
+8./testbench.v
+F./testbench.v
+L0 7
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+n@t@o@p_ctl

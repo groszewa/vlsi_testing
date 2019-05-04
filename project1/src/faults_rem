@@ -1,0 +1,93 @@
+Gate 67 input 0 SA0:
+Gate 66 input 0 SA1:
+Gate 65 input 1 SA1:
+Gate 63 input 1 SA1:
+Gate 62 input 1 SA1:
+Gate 61 input 1 SA1:
+Gate 60 output SA1:
+Gate 60 input 1 SA0:
+Gate 60 input 0 SA0:
+Gate 59 input 1 SA1:
+Gate 58 input 0 SA1:
+Gate 57 output SA0:
+Gate 56 output SA1:
+Gate 56 input 1 SA1:
+Gate 55 output SA1:
+Gate 55 input 1 SA1:
+Gate 55 input 0 SA1:
+Gate 51 output SA0:
+Gate 51 input 1 SA1:
+Gate 51 input 0 SA1:
+Gate 49 output SA1:
+Gate 49 input 1 SA1:
+Gate 49 input 0 SA1:
+Gate 47 output SA1:
+Gate 47 input 1 SA1:
+Gate 46 output SA1:
+Gate 46 input 1 SA1:
+Gate 46 input 0 SA1:
+Gate 45 input 0 SA1:
+Gate 44 output SA0:
+Gate 44 input 1 SA1:
+Gate 44 input 0 SA1:
+Gate 43 input 1 SA1:
+Gate 42 input 0 SA1:
+Gate 40 output SA0:
+Gate 40 input 1 SA1:
+Gate 40 input 0 SA1:
+Gate 39 input 1 SA0:
+Gate 37 input 1 SA0:
+Gate 36 output SA0:
+Gate 36 input 0 SA1:
+Gate 35 output SA1:
+Gate 35 input 1 SA1:
+Gate 35 input 0 SA1:
+Gate 34 input 0 SA0:
+Gate 33 output SA1:
+Gate 33 input 1 SA1:
+Gate 32 output SA1:
+Gate 32 input 0 SA1:
+Gate 30 output SA1:
+Gate 30 input 0 SA1:
+Gate 29 output SA1:
+Gate 28 input 0 SA1:
+Gate 27 input 1 SA0:
+Gate 26 output SA0:
+Gate 26 input 1 SA0:
+Gate 26 input 0 SA0:
+Gate 24 output SA1:
+Gate 22 output SA0:
+Gate 22 input 1 SA1:
+Gate 22 input 0 SA1:
+Gate 21 output SA1:
+Gate 21 output SA0:
+Gate 21 input 1 SA1:
+Gate 21 input 0 SA1:
+Gate 20 output SA0:
+Gate 20 input 0 SA0:
+Gate 19 output SA1:
+Gate 19 output SA0:
+Gate 19 input 1 SA0:
+Gate 19 input 0 SA0:
+Gate 18 output SA1:
+Gate 18 output SA0:
+Gate 18 input 1 SA0:
+Gate 18 input 0 SA0:
+Gate 17 input 0 SA0:
+Gate 16 output SA1:
+Gate 16 output SA0:
+Gate 16 input 1 SA1:
+Gate 16 input 0 SA1:
+Gate 15 output SA0:
+Gate 15 input 0 SA0:
+Gate 14 output SA0:
+Gate 14 input 1 SA0:
+Gate 13 output SA1:
+Gate 13 output SA0:
+Gate 13 input 1 SA1:
+Gate 13 input 0 SA1:
+Gate 12 input 0 SA1:
+Gate 11 input 1 SA0:
+Gate 10 output SA0:
+
+

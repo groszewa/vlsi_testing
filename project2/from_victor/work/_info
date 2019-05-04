@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecelrc/students/agroszewski/vlsi_testing/project2/from_victor
+vbist_controller
+!s110 1492578098
+!i10b 1
+!s100 :YIoU28[znUAQPOkB3c;R2
+Id762R4gK[maZ[mUXTgdBO1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1492574032
+8./bist_controller.v
+F./bist_controller.v
+L0 1
+Z2 OL;L;10.6;65
+r1
+!s85 0
+31
+Z3 !s108 1492578098.000000
+Z4 !s107 ./bist_controller.v|./lfsr_tb.v|./lfsr.v|
+Z5 !s90 -reportprogress|300|./lfsr.v|./lfsr_tb.v|./bist_controller.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vlfsr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 GmboB1H=_kP>eA_b>cNSd3
+I`3GUmS2SDE85jaZeaPL9U2
+R0
+w1492573973
+8./lfsr.v
+F./lfsr.v
+L0 3
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+vtop
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QKX]6I4W^PXLFM?^ZoZfa3
+I42PWTHB]Y2ME[U^Jg:]`j3
+R0
+w1492577928
+8./lfsr_tb.v
+F./lfsr_tb.v
+L0 3
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7

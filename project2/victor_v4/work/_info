@@ -1,0 +1,192 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v4
+vbist_controller
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 18RPHE:?NLi:^8^nnLTd]1
+I^OUFUNH^g:[4b<fJTX@V>3
+R0
+w1492878092
+8./bist_controller_ver3.v
+F./bist_controller_ver3.v
+L0 1
+Z2 OL;L;10.6;65
+Z3 !s108 1492878253.000000
+Z4 !s107 ./misr.v|./bist_controller_ver3.v|./lfsr.v|./testbench.v|./scan_cut.v|./project.v|
+Z5 !s90 ./project.v|./scan_cut.v|./testbench.v|./lfsr.v|./bist_controller_ver3.v|./misr.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vbist_hardware
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 TdmgZQfSg4R`Kg;6o2mSj2
+ICAQ?mLc6h:m]o9OMhEA0:2
+R0
+Z8 w1492816121
+Z9 8./project.v
+Z10 F./project.v
+L0 1
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+vchip
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Mebke]aCQH7bahiMF5JRo1
+ICZPNF?hE;e8]>W2NBb]GG2
+R0
+R8
+R9
+R10
+L0 31
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+vlfsr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 aR=9@n_OTHZBeUn7FJe262
+ICQ187QfUK<2F>RoEYYR;I3
+R0
+w1492877686
+8./lfsr.v
+F./lfsr.v
+L0 3
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+vmisr
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]gRGM4NY5:jhOA:?mi2>c2
+I]0^318Fba8WKbjBKCYTFL0
+R0
+w1492878248
+8./misr.v
+F./misr.v
+L0 3
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+vMUX21H
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @S>OlYk127VD1?NT3PV;P1
+IL4HKlZ=8C>V[@a=9NX;ac1
+R0
+Z11 w1492816122
+Z12 8./scan_cut.v
+Z13 F./scan_cut.v
+L0 8
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+n@m@u@x21@h
+vscan_cut
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 c0QTB5AUR>KSN3^cZK^7W2
+IHJUlY9CPGgV5030H8FkBa0
+R0
+R11
+R12
+R13
+L0 44
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+vscan_dff
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 j35cgNZ85aa4QWX9`i0hV0
+I@G`1MaP9gQdgO4PODz<JD2
+R0
+R11
+R12
+R13
+L0 22
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+vTOP_ctl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VM?R[W<`odP8KAA;YcIF71
+I_gKfNU0YINb>[YJ0lQ>zW3
+R0
+R11
+8./testbench.v
+F./testbench.v
+L0 7
+R2
+R3
+R4
+R5
+!i113 0
+R6
+R7
+n@t@o@p_ctl

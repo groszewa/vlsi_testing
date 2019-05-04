@@ -1,0 +1,100 @@
+{
+    "CompileProcesses": [
+        "cgproc.16055.json"
+    ],
+    "NameTable": {
+        "TOP_ctl": [
+            "TOP_ctl",
+            "z8j0x",
+            "module"
+        ],
+        "MUX21H": [
+            "MUX21H",
+            "nd3Qq",
+            "module"
+        ],
+        "scan_dff": [
+            "scan_dff",
+            "PMpaD",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "SIMBData": {
+        "bytes": 59927,
+        "out": "amcQwB.o"
+    },
+    "PEModules": [],
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "stat": {
+        "ru_self_end": {
+            "ru_utime_sec": 0.45993000000000001,
+            "ru_stime_sec": 0.063990000000000005,
+            "ru_nvcsw": 289,
+            "ru_majflt": 2,
+            "ru_maxrss_kb": 64928,
+            "ru_minflt": 15982,
+            "ru_nivcsw": 171
+        },
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.23796300000000001,
+            "ru_stime_sec": 0.037994,
+            "ru_nvcsw": 176,
+            "ru_majflt": 2,
+            "ru_maxrss_kb": 55396,
+            "ru_minflt": 12885,
+            "ru_nivcsw": 77
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 0,
+            "ru_nivcsw": 0
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 0,
+            "ru_nivcsw": 0
+        },
+        "nMops": 32035,
+        "nQuads": 13827,
+        "totalObjSize": 452501,
+        "CodeGen(%)": 48.261039723436177,
+        "mopSpeed": 144323.25525866458,
+        "quadSpeed": 62293.043560529266,
+        "mop/quad": 2.3168438562233313,
+        "outputSizePerQuad": 32.0,
+        "Frontend(%)": 51.73896027656383
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "TOP_ctl",
+        "MUX21H",
+        "scan_dff"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "default_output_dir": "csrc",
+        "csrc": "csrc",
+        "cwd": "/home/ecelrc/students/agroszewski/vlsi_testing/project2/final",
+        "daidir": "simv.daidir",
+        "csrc_abs": "/home/ecelrc/students/agroszewski/vlsi_testing/project2/final/csrc",
+        "daidir_abs": "/home/ecelrc/students/agroszewski/vlsi_testing/project2/final/simv.daidir",
+        "archive_dir": "archive.0"
+    },
+    "CompileStatus": "Successful"
+}

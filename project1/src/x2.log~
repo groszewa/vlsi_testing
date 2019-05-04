@@ -1,0 +1,2210 @@
+
+Reading Circuit:  ../data/x2.blif
+
+Circuit Parsed and Built successfully
+
+Reading Patterns:  ../data/x2.pat
+
+Number of PI = 10
+Number of PO = 7
+Number of gates = 77
+Number of faults = 272
+Number of patterns = 26
+
+Running Simulation...
+
+ckt gate (0) (8) inval 0: 0000
+ckt gate (0) (8) inval 1: 0000
+ckt gate (0) (8) outval : 1a405445
+ckt gate (1) (8) inval 0: 0000
+ckt gate (1) (8) inval 1: 0000
+ckt gate (1) (8) outval : 18a10544
+ckt gate (2) (8) inval 0: 0000
+ckt gate (2) (8) inval 1: 0000
+ckt gate (2) (8) outval : 19555111
+ckt gate (3) (8) inval 0: 0000
+ckt gate (3) (8) inval 1: 0000
+ckt gate (3) (8) outval : 18560551
+ckt gate (4) (8) inval 0: 0000
+ckt gate (4) (8) inval 1: 0000
+ckt gate (4) (8) outval : 18641051
+ckt gate (5) (8) inval 0: 0000
+ckt gate (5) (8) inval 1: 0000
+ckt gate (5) (8) outval : 19915404
+ckt gate (6) (8) inval 0: 0000
+ckt gate (6) (8) inval 1: 0000
+ckt gate (6) (8) outval : 18101450
+ckt gate (7) (8) inval 0: 0000
+ckt gate (7) (8) inval 1: 0000
+ckt gate (7) (8) outval : 19654155
+ckt gate (8) (8) inval 0: 0000
+ckt gate (8) (8) inval 1: 0000
+ckt gate (8) (8) outval : 19a24441
+ckt gate (9) (8) inval 0: 0000
+ckt gate (9) (8) inval 1: 0000
+ckt gate (9) (8) outval : 19545015
+ckt gate (10) (3) inval 0: 18a10544
+ckt gate (10) (3) inval 1: 19555111
+ckt gate (10) (3) outval : 48000000
+ckt gate (11) (3) inval 0: 18560551
+ckt gate (11) (3) inval 1: 18a10544
+ckt gate (11) (3) outval : 49005000
+ckt gate (12) (0) inval 0: 19555111
+ckt gate (12) (0) inval 1: 1a405445
+ckt gate (12) (0) outval : 1a405001
+ckt gate (13) (0) inval 0: 18641051
+ckt gate (13) (0) inval 1: 19915404
+ckt gate (13) (0) outval : 18a01000
+ckt gate (14) (3) inval 0: 19555111
+ckt gate (14) (3) inval 1: 1a405445
+ckt gate (14) (3) outval : 48000000
+ckt gate (15) (3) inval 0: 18101450
+ckt gate (15) (3) inval 1: 19654155
+ckt gate (15) (3) outval : 48000000
+ckt gate (16) (0) inval 0: 19a24441
+ckt gate (16) (0) inval 1: 1a405445
+ckt gate (16) (0) outval : 1a804441
+ckt gate (17) (1) inval 0: 18a10544
+ckt gate (17) (1) inval 1: 19555111
+ckt gate (17) (1) outval : 19555555
+ckt gate (18) (3) inval 0: 18101450
+ckt gate (18) (3) inval 1: 19654155
+ckt gate (18) (3) outval : 48000000
+ckt gate (19) (3) inval 0: 19a24441
+ckt gate (19) (3) inval 1: 18a10544
+ckt gate (19) (3) outval : 48a41010
+ckt gate (20) (3) inval 0: 18101450
+ckt gate (20) (3) inval 1: 19654155
+ckt gate (20) (3) outval : 48000000
+ckt gate (21) (0) inval 0: 19555111
+ckt gate (21) (0) inval 1: 1a405445
+ckt gate (21) (0) outval : 1a405001
+ckt gate (22) (2) inval 0: 18641051
+ckt gate (22) (2) inval 1: 19915404
+ckt gate (22) (2) outval : 49a54555
+ckt gate (23) (2) inval 0: 19555111
+ckt gate (23) (2) inval 1: 1a405445
+ckt gate (23) (2) outval : 4a150554
+ckt gate (24) (1) inval 0: 18a10544
+ckt gate (24) (1) inval 1: 19555111
+ckt gate (24) (1) outval : 19555555
+ckt gate (25) (1) inval 0: 18a10544
+ckt gate (25) (1) inval 1: 1a405445
+ckt gate (25) (1) outval : 1a615545
+ckt gate (26) (3) inval 0: 18a10544
+ckt gate (26) (3) inval 1: 1a405445
+ckt gate (26) (3) outval : 4a240010
+ckt gate (27) (1) inval 0: 18101450
+ckt gate (27) (1) inval 1: 19a24441
+ckt gate (27) (1) outval : 19925451
+ckt gate (28) (2) inval 0: 18a10544
+ckt gate (28) (2) inval 1: 1a405445
+ckt gate (28) (2) outval : 49955111
+ckt gate (29) (1) inval 0: 19555111
+ckt gate (29) (1) inval 1: 1a405445
+ckt gate (29) (1) outval : 19555555
+ckt gate (30) (2) inval 0: 1a405445
+ckt gate (30) (2) inval 1: 48000000
+ckt gate (30) (2) outval : 59555555
+ckt gate (31) (2) inval 0: 49005000
+ckt gate (31) (2) inval 1: 1a405001
+ckt gate (31) (2) outval : 5a550555
+ckt gate (32) (2) inval 0: 18a01000
+ckt gate (32) (2) inval 1: 48000000
+ckt gate (32) (2) outval : 59555555
+ckt gate (33) (2) inval 0: 48000000
+ckt gate (33) (2) inval 1: 1a804441
+ckt gate (33) (2) outval : 59555555
+ckt gate (34) (1) inval 0: 1a405445
+ckt gate (34) (1) inval 1: 19555555
+ckt gate (34) (1) outval : 19555555
+ckt gate (35) (2) inval 0: 48000000
+ckt gate (35) (2) inval 1: 48a41010
+ckt gate (35) (2) outval : 19555555
+ckt gate (36) (0) inval 0: 19a24441
+ckt gate (36) (0) inval 1: 48000000
+ckt gate (36) (0) outval : 8000000
+ckt gate (37) (1) inval 0: 1a405445
+ckt gate (37) (1) inval 1: 49a54555
+ckt gate (37) (1) outval : 59655555
+ckt gate (38) (0) inval 0: 1a615545
+ckt gate (38) (0) inval 1: 19545015
+ckt gate (38) (0) outval : 1a605005
+ckt gate (39) (1) inval 0: 19654155
+ckt gate (39) (1) inval 1: 4a240010
+ckt gate (39) (1) outval : 59654155
+ckt gate (40) (2) inval 0: 4a150554
+ckt gate (40) (2) inval 1: 1a615545
+ckt gate (40) (2) outval : 5a645011
+ckt gate (41) (0) inval 0: 1a615545
+ckt gate (41) (0) inval 1: 49955111
+ckt gate (41) (0) outval : aa15101
+ckt gate (42) (0) inval 0: 19555555
+ckt gate (42) (0) inval 1: 4a150554
+ckt gate (42) (0) outval : a150554
+ckt gate (43) (0) inval 0: 1a615545
+ckt gate (43) (0) inval 1: 19555555
+ckt gate (43) (0) outval : 1a615545
+ckt gate (44) (2) inval 0: 59555555
+ckt gate (44) (2) inval 1: 59555555
+ckt gate (44) (2) outval : 8000000
+ckt gate (45) (0) inval 0: 19555555
+ckt gate (45) (0) inval 1: 19545015
+ckt gate (45) (0) outval : 19545015
+ckt gate (46) (0) inval 0: 19555555
+ckt gate (46) (0) inval 1: 1a405445
+ckt gate (46) (0) outval : 1a405445
+ckt gate (47) (2) inval 0: 8000000
+ckt gate (47) (2) inval 1: 1a405001
+ckt gate (47) (2) outval : 59555555
+ckt gate (48) (0) inval 0: 5a550555
+ckt gate (48) (0) inval 1: 19545015
+ckt gate (48) (0) outval : 1a540015
+ckt gate (49) (0) inval 0: 19555555
+ckt gate (49) (0) inval 1: 19555555
+ckt gate (49) (0) outval : 19555555
+ckt gate (50) (3) inval 0: 59654155
+ckt gate (50) (3) inval 1: 19925451
+ckt gate (50) (3) outval : 8000000
+ckt gate (51) (2) inval 0: 19555555
+ckt gate (51) (2) inval 1: 59555555
+ckt gate (51) (2) outval : 48000000
+ckt gate (52) (4) inval 0: 19555555
+ckt gate (52) (4) inval 1: 0000
+ckt gate (52) (4) outval : 48000000
+ckt gate (53) (2) inval 0: aa15101
+ckt gate (53) (2) inval 1: a150554
+ckt gate (53) (2) outval : 5a645455
+ckt gate (54) (0) inval 0: 4a150554
+ckt gate (54) (0) inval 1: 1a615545
+ckt gate (54) (0) outval : a210544
+ckt gate (55) (0) inval 0: 59555555
+ckt gate (55) (0) inval 1: 19555555
+ckt gate (55) (0) outval : 19555555
+ckt gate (56) (2) inval 0: 8000000
+ckt gate (56) (2) inval 1: 18a10544
+ckt gate (56) (2) outval : 59555555
+ckt gate (57) (3) inval 0: 19555111
+ckt gate (57) (3) inval 1: 1a405445
+ckt gate (57) (3) outval : 48000000
+ckt gate (58) (2) inval 0: 59555555
+ckt gate (58) (2) inval 1: 59655555
+ckt gate (58) (2) outval : 8200000
+ckt gate (59) (0) inval 0: 4a150554
+ckt gate (59) (0) inval 1: 19555555
+ckt gate (59) (0) outval : a150554
+ckt gate (60) (3) inval 0: 5a645011
+ckt gate (60) (3) inval 1: 48000000
+ckt gate (60) (3) outval : a210544
+ckt gate (61) (2) inval 0: a210544
+ckt gate (61) (2) inval 1: 19555555
+ckt gate (61) (2) outval : 5a645011
+ckt gate (62) (0) inval 0: 5a550555
+ckt gate (62) (0) inval 1: 59555555
+ckt gate (62) (0) outval : 5a550555
+ckt gate (63) (0) inval 0: 8200000
+ckt gate (63) (0) inval 1: 18a10544
+ckt gate (63) (0) outval : 8200000
+ckt gate (64) (2) inval 0: a150554
+ckt gate (64) (2) inval 1: 1a605005
+ckt gate (64) (2) outval : 5a655551
+ckt gate (65) (2) inval 0: 8000000
+ckt gate (65) (2) inval 1: a210544
+ckt gate (65) (2) outval : 59555555
+ckt gate (66) (0) inval 0: 59555555
+ckt gate (66) (0) inval 1: 5a550555
+ckt gate (66) (0) outval : 5a550555
+ckt gate (67) (3) inval 0: 48000000
+ckt gate (67) (3) inval 1: 8200000
+ckt gate (67) (3) outval : 19655555
+ckt gate (68) (2) inval 0: 5a550555
+ckt gate (68) (2) inval 1: 19545015
+ckt gate (68) (2) outval : 4a015540
+ckt gate (69) (2) inval 0: 19655555
+ckt gate (69) (2) inval 1: 1a540015
+ckt gate (69) (2) outval : 4a215540
+ckt gate (70) (9) inval 0: 4a015540
+ckt gate (70) (9) inval 1: 0000
+ckt gate (70) (9) outval : 4a015540
+ckt gate (71) (9) inval 0: 4a215540
+ckt gate (71) (9) inval 1: 0000
+ckt gate (71) (9) outval : 4a215540
+ckt gate (72) (9) inval 0: 5a655551
+ckt gate (72) (9) inval 1: 0000
+ckt gate (72) (9) outval : 5a655551
+ckt gate (73) (9) inval 0: 59555555
+ckt gate (73) (9) inval 1: 0000
+ckt gate (73) (9) outval : 59555555
+ckt gate (74) (9) inval 0: 48000000
+ckt gate (74) (9) inval 1: 0000
+ckt gate (74) (9) outval : 48000000
+ckt gate (75) (9) inval 0: 5a645455
+ckt gate (75) (9) inval 1: 0000
+ckt gate (75) (9) outval : 5a645455
+ckt gate (76) (9) inval 0: 5a645011
+ckt gate (76) (9) inval 1: 0000
+ckt gate (76) (9) outval : 5a645011
+
+Gate 76 input 0 SA1:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 55555555
+in detected loop!
+
+Gate 76 input 0 SA0:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 0000
+in detected loop!
+
+Gate 75 input 0 SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 55555555
+in detected loop!
+
+Gate 75 input 0 SA0:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 0000
+in detected loop!
+
+Gate 74 input 0 SA1:
+golden pattern for PO 4 in segment 1: 48000000
+Output value   for PO 4 in segment 1: 55555555
+in detected loop!
+
+Gate 74 input 0 SA0:
+golden pattern for PO 4 in segment 1: 48000000
+Output value   for PO 4 in segment 1: 0000
+in detected loop!
+
+Gate 73 input 0 SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 73 input 0 SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 0000
+in detected loop!
+
+Gate 72 input 0 SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 55555555
+in detected loop!
+
+Gate 72 input 0 SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 0000
+in detected loop!
+
+Gate 71 input 0 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 55555555
+in detected loop!
+
+Gate 71 input 0 SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 0000
+in detected loop!
+
+Gate 70 input 0 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 70 input 0 SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 0000
+in detected loop!
+
+Gate 69 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 55555555
+in detected loop!
+
+Gate 69 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 0000
+in detected loop!
+
+Gate 69 input 1 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 48200000
+in detected loop!
+
+Gate 69 input 0 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a015540
+in detected loop!
+
+Gate 68 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 68 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 0000
+in detected loop!
+
+Gate 68 input 1 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: a005000
+in detected loop!
+
+Gate 68 input 0 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 48010540
+in detected loop!
+
+Gate 67 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a015540
+in detected loop!
+
+Gate 67 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 55555555
+in detected loop!
+
+Gate 67 input 1 SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a015540
+in detected loop!
+
+Gate 67 input 0 SA0:
+This fault still in list!
+
+Gate 66 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 48010540
+in detected loop!
+
+Gate 66 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 66 input 1 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 48010540
+in detected loop!
+
+Gate 66 input 0 SA1:
+This fault still in list!
+
+Gate 65 output SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 65 output SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 0000
+in detected loop!
+
+Gate 65 input 1 SA1:
+This fault still in list!
+
+Gate 65 input 0 SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 5a645011
+in detected loop!
+
+Gate 64 output SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 55555555
+in detected loop!
+
+Gate 64 output SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 0000
+in detected loop!
+
+Gate 64 input 1 SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 5a405001
+in detected loop!
+
+Gate 64 input 0 SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 4a250550
+in detected loop!
+
+Gate 63 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 55555555
+in detected loop!
+
+Gate 63 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a015540
+in detected loop!
+
+Gate 63 input 1 SA1:
+This fault still in list!
+
+Gate 63 input 0 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15544
+in detected loop!
+
+Gate 62 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 48010540
+in detected loop!
+
+Gate 62 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 62 input 1 SA1:
+This fault still in list!
+
+Gate 62 input 0 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 48010540
+in detected loop!
+
+Gate 61 output SA1:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 55555555
+in detected loop!
+
+Gate 61 output SA0:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 0000
+in detected loop!
+
+Gate 61 input 1 SA1:
+This fault still in list!
+
+Gate 61 input 0 SA1:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 48000000
+in detected loop!
+
+Gate 60 output SA1:
+This fault still in list!
+
+Gate 60 output SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 60 input 1 SA0:
+This fault still in list!
+
+Gate 60 input 0 SA0:
+This fault still in list!
+
+Gate 59 output SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 4a250550
+in detected loop!
+
+Gate 59 output SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 55555555
+in detected loop!
+
+Gate 59 input 1 SA1:
+This fault still in list!
+
+Gate 59 input 0 SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 4a250550
+in detected loop!
+
+Gate 58 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15544
+in detected loop!
+
+Gate 58 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a015540
+in detected loop!
+
+Gate 58 input 1 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a015540
+in detected loop!
+
+Gate 58 input 0 SA1:
+This fault still in list!
+
+Gate 57 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 55555555
+in detected loop!
+
+Gate 57 output SA0:
+This fault still in list!
+
+Gate 57 input 1 SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a215544
+in detected loop!
+
+Gate 57 input 0 SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a155550
+in detected loop!
+
+Gate 56 output SA1:
+This fault still in list!
+
+Gate 56 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 56 input 1 SA1:
+This fault still in list!
+
+Gate 56 input 0 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5aa15544
+in detected loop!
+
+Gate 55 output SA1:
+This fault still in list!
+
+Gate 55 output SA0:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 55555555
+in detected loop!
+
+Gate 55 input 1 SA1:
+This fault still in list!
+
+Gate 55 input 0 SA1:
+This fault still in list!
+
+Gate 54 output SA1:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 48000000
+in detected loop!
+
+Gate 54 output SA0:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 55555555
+in detected loop!
+
+Gate 54 input 1 SA1:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 5a405001
+in detected loop!
+
+Gate 54 input 0 SA1:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 4a240010
+in detected loop!
+
+Gate 53 output SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 55555555
+in detected loop!
+
+Gate 53 output SA0:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 0000
+in detected loop!
+
+Gate 53 input 1 SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5aa40454
+in detected loop!
+
+Gate 53 input 0 SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5a405001
+in detected loop!
+
+Gate 52 output SA1:
+golden pattern for PO 4 in segment 1: 48000000
+Output value   for PO 4 in segment 1: 55555555
+in detected loop!
+
+Gate 52 output SA0:
+golden pattern for PO 4 in segment 1: 48000000
+Output value   for PO 4 in segment 1: 0000
+in detected loop!
+
+Gate 51 output SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 51 output SA0:
+This fault still in list!
+
+Gate 51 input 1 SA1:
+This fault still in list!
+
+Gate 51 input 0 SA1:
+This fault still in list!
+
+Gate 50 output SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 5a645011
+in detected loop!
+
+Gate 50 output SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 50 input 1 SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 59655155
+in detected loop!
+
+Gate 50 input 0 SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 59565451
+in detected loop!
+
+Gate 49 output SA1:
+This fault still in list!
+
+Gate 49 output SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 55555555
+in detected loop!
+
+Gate 49 input 1 SA1:
+This fault still in list!
+
+Gate 49 input 0 SA1:
+This fault still in list!
+
+Gate 48 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 48200000
+in detected loop!
+
+Gate 48 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 55555555
+in detected loop!
+
+Gate 48 input 1 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a205000
+in detected loop!
+
+Gate 48 input 0 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 48210540
+in detected loop!
+
+Gate 47 output SA1:
+This fault still in list!
+
+Gate 47 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15544
+in detected loop!
+
+Gate 47 input 1 SA1:
+This fault still in list!
+
+Gate 47 input 0 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15540
+in detected loop!
+
+Gate 46 output SA1:
+This fault still in list!
+
+Gate 46 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a215544
+in detected loop!
+
+Gate 46 input 1 SA1:
+This fault still in list!
+
+Gate 46 input 0 SA1:
+This fault still in list!
+
+Gate 45 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: a005000
+in detected loop!
+
+Gate 45 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 45 input 1 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a005000
+in detected loop!
+
+Gate 45 input 0 SA1:
+This fault still in list!
+
+Gate 44 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5aa15544
+in detected loop!
+
+Gate 44 output SA0:
+This fault still in list!
+
+Gate 44 input 1 SA1:
+This fault still in list!
+
+Gate 44 input 0 SA1:
+This fault still in list!
+
+Gate 43 output SA1:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 5a405001
+in detected loop!
+
+Gate 43 output SA0:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 55555555
+in detected loop!
+
+Gate 43 input 1 SA1:
+This fault still in list!
+
+Gate 43 input 0 SA1:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 5a405001
+in detected loop!
+
+Gate 42 output SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5aa40454
+in detected loop!
+
+Gate 42 output SA0:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 55555555
+in detected loop!
+
+Gate 42 input 1 SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5aa40454
+in detected loop!
+
+Gate 42 input 0 SA1:
+This fault still in list!
+
+Gate 41 output SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5a405001
+in detected loop!
+
+Gate 41 output SA0:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 55555555
+in detected loop!
+
+Gate 41 input 1 SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5a645011
+in detected loop!
+
+Gate 41 input 0 SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5a405445
+in detected loop!
+
+Gate 40 output SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 40 output SA0:
+This fault still in list!
+
+Gate 40 input 1 SA1:
+This fault still in list!
+
+Gate 40 input 0 SA1:
+This fault still in list!
+
+Gate 39 output SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 39 output SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 59565451
+in detected loop!
+
+Gate 39 input 1 SA0:
+This fault still in list!
+
+Gate 39 input 0 SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 59565451
+in detected loop!
+
+Gate 38 output SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 5a405001
+in detected loop!
+
+Gate 38 output SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 55555555
+in detected loop!
+
+Gate 38 input 1 SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 5a645011
+in detected loop!
+
+Gate 38 input 0 SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 5a415541
+in detected loop!
+
+Gate 37 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a015540
+in detected loop!
+
+Gate 37 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15544
+in detected loop!
+
+Gate 37 input 1 SA0:
+This fault still in list!
+
+Gate 37 input 0 SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15540
+in detected loop!
+
+Gate 36 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15540
+in detected loop!
+
+Gate 36 output SA0:
+This fault still in list!
+
+Gate 36 input 1 SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15540
+in detected loop!
+
+Gate 36 input 0 SA1:
+This fault still in list!
+
+Gate 35 output SA1:
+This fault still in list!
+
+Gate 35 output SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a215544
+in detected loop!
+
+Gate 35 input 1 SA1:
+This fault still in list!
+
+Gate 35 input 0 SA1:
+This fault still in list!
+
+Gate 34 output SA1:
+golden pattern for PO 4 in segment 1: 48000000
+Output value   for PO 4 in segment 1: 0000
+in detected loop!
+
+Gate 34 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 34 input 1 SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a155550
+in detected loop!
+
+Gate 34 input 0 SA0:
+This fault still in list!
+
+Gate 33 output SA1:
+This fault still in list!
+
+Gate 33 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5aa15544
+in detected loop!
+
+Gate 33 input 1 SA1:
+This fault still in list!
+
+Gate 33 input 0 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5a815540
+in detected loop!
+
+Gate 32 output SA1:
+This fault still in list!
+
+Gate 32 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5aa15544
+in detected loop!
+
+Gate 32 input 1 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5aa15540
+in detected loop!
+
+Gate 32 input 0 SA1:
+This fault still in list!
+
+Gate 31 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 48010540
+in detected loop!
+
+Gate 31 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 31 input 1 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 49015540
+in detected loop!
+
+Gate 31 input 0 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5a415541
+in detected loop!
+
+Gate 30 output SA1:
+This fault still in list!
+
+Gate 30 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 30 input 1 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5a415545
+in detected loop!
+
+Gate 30 input 0 SA1:
+This fault still in list!
+
+Gate 29 output SA1:
+This fault still in list!
+
+Gate 29 output SA0:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 55555555
+in detected loop!
+
+Gate 29 input 1 SA0:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 5a645455
+in detected loop!
+
+Gate 29 input 0 SA0:
+golden pattern for PO 6 in segment 1: 5a645011
+Output value   for PO 6 in segment 1: 5a555111
+in detected loop!
+
+Gate 28 output SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5a645011
+in detected loop!
+
+Gate 28 output SA0:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 55555555
+in detected loop!
+
+Gate 28 input 1 SA1:
+golden pattern for PO 5 in segment 1: 5a645455
+Output value   for PO 5 in segment 1: 5a655555
+in detected loop!
+
+Gate 28 input 0 SA1:
+This fault still in list!
+
+Gate 27 output SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 27 output SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 59655155
+in detected loop!
+
+Gate 27 input 1 SA0:
+This fault still in list!
+
+Gate 27 input 0 SA0:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 59655555
+in detected loop!
+
+Gate 26 output SA1:
+golden pattern for PO 3 in segment 1: 59555555
+Output value   for PO 3 in segment 1: 55555555
+in detected loop!
+
+Gate 26 output SA0:
+This fault still in list!
+
+Gate 26 input 1 SA0:
+This fault still in list!
+
+Gate 26 input 0 SA0:
+This fault still in list!
+
+Gate 25 output SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 5a415541
+in detected loop!
+
+Gate 25 output SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 55555555
+in detected loop!
+
+Gate 25 input 1 SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 59655551
+in detected loop!
+
+Gate 25 input 0 SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 5a555551
+in detected loop!
+
+Gate 24 output SA1:
+This fault still in list!
+
+Gate 24 output SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 55555555
+in detected loop!
+
+Gate 24 input 1 SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 59655551
+in detected loop!
+
+Gate 24 input 0 SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 5a655555
+in detected loop!
+
+Gate 23 output SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 4a250550
+in detected loop!
+
+Gate 23 output SA0:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 55555555
+in detected loop!
+
+Gate 23 input 1 SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 59555551
+in detected loop!
+
+Gate 23 input 0 SA1:
+golden pattern for PO 2 in segment 1: 5a655551
+Output value   for PO 2 in segment 1: 5a655555
+in detected loop!
+
+Gate 22 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4a015540
+in detected loop!
+
+Gate 22 output SA0:
+This fault still in list!
+
+Gate 22 input 1 SA1:
+This fault still in list!
+
+Gate 22 input 0 SA1:
+This fault still in list!
+
+Gate 21 output SA1:
+This fault still in list!
+
+Gate 21 output SA0:
+This fault still in list!
+
+Gate 21 input 1 SA1:
+This fault still in list!
+
+Gate 21 input 0 SA1:
+This fault still in list!
+
+Gate 20 output SA1:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 5aa15540
+in detected loop!
+
+Gate 20 output SA0:
+This fault still in list!
+
+Gate 20 input 1 SA0:
+golden pattern for PO 1 in segment 1: 4a215540
+Output value   for PO 1 in segment 1: 4aa15540
+in detected loop!
+
+Gate 20 input 0 SA0:
+This fault still in list!
+
+Gate 19 output SA1:
+This fault still in list!
+
+Gate 19 output SA0:
+This fault still in list!
+
+Gate 19 input 1 SA0:
+This fault still in list!
+
+Gate 19 input 0 SA0:
+This fault still in list!
+
+Gate 18 output SA1:
+This fault still in list!
+
+Gate 18 output SA0:
+This fault still in list!
+
+Gate 18 input 1 SA0:
+This fault still in list!
+
+Gate 18 input 0 SA0:
+This fault still in list!
+
+Gate 17 output SA1:
+golden pattern for PO 4 in segment 1: 48000000
+Output value   for PO 4 in segment 1: 0000
+in detected loop!
+
+Gate 17 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a155550
+in detected loop!
+
+Gate 17 input 1 SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a255550
+in detected loop!
+
+Gate 17 input 0 SA0:
+This fault still in list!
+
+Gate 16 output SA1:
+This fault still in list!
+
+Gate 16 output SA0:
+This fault still in list!
+
+Gate 16 input 1 SA1:
+This fault still in list!
+
+Gate 16 input 0 SA1:
+This fault still in list!
+
+Gate 15 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5a815540
+in detected loop!
+
+Gate 15 output SA0:
+This fault still in list!
+
+Gate 15 input 1 SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a815540
+in detected loop!
+
+Gate 15 input 0 SA0:
+This fault still in list!
+
+Gate 14 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5aa15540
+in detected loop!
+
+Gate 14 output SA0:
+This fault still in list!
+
+Gate 14 input 1 SA0:
+This fault still in list!
+
+Gate 14 input 0 SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a215540
+in detected loop!
+
+Gate 13 output SA1:
+This fault still in list!
+
+Gate 13 output SA0:
+This fault still in list!
+
+Gate 13 input 1 SA1:
+This fault still in list!
+
+Gate 13 input 0 SA1:
+This fault still in list!
+
+Gate 12 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 49015540
+in detected loop!
+
+Gate 12 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 48010540
+in detected loop!
+
+Gate 12 input 1 SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 49015540
+in detected loop!
+
+Gate 12 input 0 SA1:
+This fault still in list!
+
+Gate 11 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5a415541
+in detected loop!
+
+Gate 11 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 48010540
+in detected loop!
+
+Gate 11 input 1 SA0:
+This fault still in list!
+
+Gate 11 input 0 SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a815541
+in detected loop!
+
+Gate 10 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 5a415545
+in detected loop!
+
+Gate 10 output SA0:
+This fault still in list!
+
+Gate 10 input 1 SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a815541
+in detected loop!
+
+Gate 10 input 0 SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a015544
+in detected loop!
+
+Gate 9 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 4a005000
+in detected loop!
+
+Gate 9 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 8 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 8 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 7 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 7 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 6 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 6 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 5 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 5 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 4 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 4 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 3 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 3 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 2 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 2 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 1 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 1 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 0 output SA1:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+
+Gate 0 output SA0:
+golden pattern for PO 0 in segment 1: 4a015540
+Output value   for PO 0 in segment 1: 55555555
+in detected loop!
+faults remaining after segment 1: 
+Gate 67 input 0 SA0:
+Gate 66 input 0 SA1:
+Gate 65 input 1 SA1:
+Gate 63 input 1 SA1:
+Gate 62 input 1 SA1:
+Gate 61 input 1 SA1:
+Gate 60 output SA1:
+Gate 60 input 1 SA0:
+Gate 60 input 0 SA0:
+Gate 59 input 1 SA1:
+Gate 58 input 0 SA1:
+Gate 57 output SA0:
+Gate 56 output SA1:
+Gate 56 input 1 SA1:
+Gate 55 output SA1:
+Gate 55 input 1 SA1:
+Gate 55 input 0 SA1:
+Gate 51 output SA0:
+Gate 51 input 1 SA1:
+Gate 51 input 0 SA1:
+Gate 49 output SA1:
+Gate 49 input 1 SA1:
+Gate 49 input 0 SA1:
+Gate 47 output SA1:
+Gate 47 input 1 SA1:
+Gate 46 output SA1:
+Gate 46 input 1 SA1:
+Gate 46 input 0 SA1:
+Gate 45 input 0 SA1:
+Gate 44 output SA0:
+Gate 44 input 1 SA1:
+Gate 44 input 0 SA1:
+Gate 43 input 1 SA1:
+Gate 42 input 0 SA1:
+Gate 40 output SA0:
+Gate 40 input 1 SA1:
+Gate 40 input 0 SA1:
+Gate 39 input 1 SA0:
+Gate 37 input 1 SA0:
+Gate 36 output SA0:
+Gate 36 input 0 SA1:
+Gate 35 output SA1:
+Gate 35 input 1 SA1:
+Gate 35 input 0 SA1:
+Gate 34 input 0 SA0:
+Gate 33 output SA1:
+Gate 33 input 1 SA1:
+Gate 32 output SA1:
+Gate 32 input 0 SA1:
+Gate 30 output SA1:
+Gate 30 input 0 SA1:
+Gate 29 output SA1:
+Gate 28 input 0 SA1:
+Gate 27 input 1 SA0:
+Gate 26 output SA0:
+Gate 26 input 1 SA0:
+Gate 26 input 0 SA0:
+Gate 24 output SA1:
+Gate 22 output SA0:
+Gate 22 input 1 SA1:
+Gate 22 input 0 SA1:
+Gate 21 output SA1:
+Gate 21 output SA0:
+Gate 21 input 1 SA1:
+Gate 21 input 0 SA1:
+Gate 20 output SA0:
+Gate 20 input 0 SA0:
+Gate 19 output SA1:
+Gate 19 output SA0:
+Gate 19 input 1 SA0:
+Gate 19 input 0 SA0:
+Gate 18 output SA1:
+Gate 18 output SA0:
+Gate 18 input 1 SA0:
+Gate 18 input 0 SA0:
+Gate 17 input 0 SA0:
+Gate 16 output SA1:
+Gate 16 output SA0:
+Gate 16 input 1 SA1:
+Gate 16 input 0 SA1:
+Gate 15 output SA0:
+Gate 15 input 0 SA0:
+Gate 14 output SA0:
+Gate 14 input 1 SA0:
+Gate 13 output SA1:
+Gate 13 output SA0:
+Gate 13 input 1 SA1:
+Gate 13 input 0 SA1:
+Gate 12 input 0 SA1:
+Gate 11 input 1 SA0:
+Gate 10 output SA0:
+ckt gate (0) (8) inval 0: 0000
+ckt gate (0) (8) inval 1: 0000
+ckt gate (0) (8) outval : 15505000
+ckt gate (1) (8) inval 0: 0000
+ckt gate (1) (8) inval 1: 0000
+ckt gate (1) (8) outval : 50105000
+ckt gate (2) (8) inval 0: 0000
+ckt gate (2) (8) inval 1: 0000
+ckt gate (2) (8) outval : 41511000
+ckt gate (3) (8) inval 0: 0000
+ckt gate (3) (8) inval 1: 0000
+ckt gate (3) (8) outval : 45105000
+ckt gate (4) (8) inval 0: 0000
+ckt gate (4) (8) inval 1: 0000
+ckt gate (4) (8) outval : 40044000
+ckt gate (5) (8) inval 0: 0000
+ckt gate (5) (8) inval 1: 0000
+ckt gate (5) (8) outval : 15550000
+ckt gate (6) (8) inval 0: 0000
+ckt gate (6) (8) inval 1: 0000
+ckt gate (6) (8) outval : 45054000
+ckt gate (7) (8) inval 0: 0000
+ckt gate (7) (8) inval 1: 0000
+ckt gate (7) (8) outval : 4440000
+ckt gate (8) (8) inval 0: 0000
+ckt gate (8) (8) inval 1: 0000
+ckt gate (8) (8) outval : 11454000
+ckt gate (9) (8) inval 0: 0000
+ckt gate (9) (8) inval 1: 0000
+ckt gate (9) (8) outval : 11511000
+ckt gate (10) (3) inval 0: 50105000
+ckt gate (10) (3) inval 1: 41511000
+ckt gate (10) (3) outval : 4040555
+ckt gate (11) (3) inval 0: 45105000
+ckt gate (11) (3) inval 1: 50105000
+ckt gate (11) (3) outval : 450555
+ckt gate (12) (0) inval 0: 41511000
+ckt gate (12) (0) inval 1: 15505000
+ckt gate (12) (0) outval : 1501000
+ckt gate (13) (0) inval 0: 40044000
+ckt gate (13) (0) inval 1: 15550000
+ckt gate (13) (0) outval : 40000
+ckt gate (14) (3) inval 0: 41511000
+ckt gate (14) (3) inval 1: 15505000
+ckt gate (14) (3) outval : 40555
+ckt gate (15) (3) inval 0: 45054000
+ckt gate (15) (3) inval 1: 4440000
+ckt gate (15) (3) outval : 10101555
+ckt gate (16) (0) inval 0: 11454000
+ckt gate (16) (0) inval 1: 15505000
+ckt gate (16) (0) outval : 11404000
+ckt gate (17) (1) inval 0: 50105000
+ckt gate (17) (1) inval 1: 41511000
+ckt gate (17) (1) outval : 51515000
+ckt gate (18) (3) inval 0: 45054000
+ckt gate (18) (3) inval 1: 4440000
+ckt gate (18) (3) outval : 10101555
+ckt gate (19) (3) inval 0: 11454000
+ckt gate (19) (3) inval 1: 50105000
+ckt gate (19) (3) outval : 4000555
+ckt gate (20) (3) inval 0: 45054000
+ckt gate (20) (3) inval 1: 4440000
+ckt gate (20) (3) outval : 10101555
+ckt gate (21) (0) inval 0: 41511000
+ckt gate (21) (0) inval 1: 15505000
+ckt gate (21) (0) outval : 1501000
+ckt gate (22) (2) inval 0: 40044000
+ckt gate (22) (2) inval 1: 15550000
+ckt gate (22) (2) outval : 55515555
+ckt gate (23) (2) inval 0: 41511000
+ckt gate (23) (2) inval 1: 15505000
+ckt gate (23) (2) outval : 54054555
+ckt gate (24) (1) inval 0: 50105000
+ckt gate (24) (1) inval 1: 41511000
+ckt gate (24) (1) outval : 51515000
+ckt gate (25) (1) inval 0: 50105000
+ckt gate (25) (1) inval 1: 15505000
+ckt gate (25) (1) outval : 55505000
+ckt gate (26) (3) inval 0: 50105000
+ckt gate (26) (3) inval 1: 15505000
+ckt gate (26) (3) outval : 50555
+ckt gate (27) (1) inval 0: 45054000
+ckt gate (27) (1) inval 1: 11454000
+ckt gate (27) (1) outval : 55454000
+ckt gate (28) (2) inval 0: 50105000
+ckt gate (28) (2) inval 1: 15505000
+ckt gate (28) (2) outval : 45450555
+ckt gate (29) (1) inval 0: 41511000
+ckt gate (29) (1) inval 1: 15505000
+ckt gate (29) (1) outval : 55515000
+ckt gate (30) (2) inval 0: 15505000
+ckt gate (30) (2) inval 1: 4040555
+ckt gate (30) (2) outval : 51555555
+ckt gate (31) (2) inval 0: 450555
+ckt gate (31) (2) inval 1: 1501000
+ckt gate (31) (2) outval : 55155555
+ckt gate (32) (2) inval 0: 40000
+ckt gate (32) (2) inval 1: 40555
+ckt gate (32) (2) outval : 55515555
+ckt gate (33) (2) inval 0: 10101555
+ckt gate (33) (2) inval 1: 11404000
+ckt gate (33) (2) outval : 45555555
+ckt gate (34) (1) inval 0: 15505000
+ckt gate (34) (1) inval 1: 51515000
+ckt gate (34) (1) outval : 55515000
+ckt gate (35) (2) inval 0: 10101555
+ckt gate (35) (2) inval 1: 4000555
+ckt gate (35) (2) outval : 55555000
+ckt gate (36) (0) inval 0: 11454000
+ckt gate (36) (0) inval 1: 10101555
+ckt gate (36) (0) outval : 10000000
+ckt gate (37) (1) inval 0: 15505000
+ckt gate (37) (1) inval 1: 55515555
+ckt gate (37) (1) outval : 55515555
+ckt gate (38) (0) inval 0: 55505000
+ckt gate (38) (0) inval 1: 11511000
+ckt gate (38) (0) outval : 11501000
+ckt gate (39) (1) inval 0: 4440000
+ckt gate (39) (1) inval 1: 50555
+ckt gate (39) (1) outval : 4450555
+ckt gate (40) (2) inval 0: 54054555
+ckt gate (40) (2) inval 1: 55505000
+ckt gate (40) (2) outval : 1551555
+ckt gate (41) (0) inval 0: 55505000
+ckt gate (41) (0) inval 1: 45450555
+ckt gate (41) (0) outval : 45400000
+ckt gate (42) (0) inval 0: 51515000
+ckt gate (42) (0) inval 1: 54054555
+ckt gate (42) (0) outval : 50014000
+ckt gate (43) (0) inval 0: 55505000
+ckt gate (43) (0) inval 1: 55515000
+ckt gate (43) (0) outval : 55505000
+ckt gate (44) (2) inval 0: 55515555
+ckt gate (44) (2) inval 1: 45555555
+ckt gate (44) (2) outval : 10040000
+ckt gate (45) (0) inval 0: 55515000
+ckt gate (45) (0) inval 1: 11511000
+ckt gate (45) (0) outval : 11511000
+ckt gate (46) (0) inval 0: 55555000
+ckt gate (46) (0) inval 1: 15505000
+ckt gate (46) (0) outval : 15505000
+ckt gate (47) (2) inval 0: 10000000
+ckt gate (47) (2) inval 1: 1501000
+ckt gate (47) (2) outval : 55555555
+ckt gate (48) (0) inval 0: 55155555
+ckt gate (48) (0) inval 1: 11511000
+ckt gate (48) (0) outval : 11111000
+ckt gate (49) (0) inval 0: 55515000
+ckt gate (49) (0) inval 1: 51515000
+ckt gate (49) (0) outval : 51515000
+ckt gate (50) (3) inval 0: 4450555
+ckt gate (50) (3) inval 1: 55454000
+ckt gate (50) (3) outval : 101000
+ckt gate (51) (2) inval 0: 55515000
+ckt gate (51) (2) inval 1: 51555555
+ckt gate (51) (2) outval : 4040555
+ckt gate (52) (4) inval 0: 55515000
+ckt gate (52) (4) inval 1: 0000
+ckt gate (52) (4) outval : 40555
+ckt gate (53) (2) inval 0: 45400000
+ckt gate (53) (2) inval 1: 50014000
+ckt gate (53) (2) outval : 15555555
+ckt gate (54) (0) inval 0: 54054555
+ckt gate (54) (0) inval 1: 55505000
+ckt gate (54) (0) outval : 54004000
+ckt gate (55) (0) inval 0: 51555555
+ckt gate (55) (0) inval 1: 51515000
+ckt gate (55) (0) outval : 51515000
+ckt gate (56) (2) inval 0: 10040000
+ckt gate (56) (2) inval 1: 50105000
+ckt gate (56) (2) outval : 45555555
+ckt gate (57) (3) inval 0: 41511000
+ckt gate (57) (3) inval 1: 15505000
+ckt gate (57) (3) outval : 40555
+ckt gate (58) (2) inval 0: 55555555
+ckt gate (58) (2) inval 1: 55515555
+ckt gate (58) (2) outval : 40000
+ckt gate (59) (0) inval 0: 54054555
+ckt gate (59) (0) inval 1: 51515000
+ckt gate (59) (0) outval : 50014000
+ckt gate (60) (3) inval 0: 1551555
+ckt gate (60) (3) inval 1: 4040555
+ckt gate (60) (3) outval : 50004000
+ckt gate (61) (2) inval 0: 54004000
+ckt gate (61) (2) inval 1: 51515000
+ckt gate (61) (2) outval : 5551555
+ckt gate (62) (0) inval 0: 55155555
+ckt gate (62) (0) inval 1: 45555555
+ckt gate (62) (0) outval : 45155555
+ckt gate (63) (0) inval 0: 40000
+ckt gate (63) (0) inval 1: 50105000
+ckt gate (63) (0) outval : 0000
+ckt gate (64) (2) inval 0: 50014000
+ckt gate (64) (2) inval 1: 11501000
+ckt gate (64) (2) outval : 45555555
+ckt gate (65) (2) inval 0: 101000
+ckt gate (65) (2) inval 1: 50004000
+ckt gate (65) (2) outval : 55555555
+ckt gate (66) (0) inval 0: 51555555
+ckt gate (66) (0) inval 1: 45155555
+ckt gate (66) (0) outval : 41155555
+ckt gate (67) (3) inval 0: 40555
+ckt gate (67) (3) inval 1: 0000
+ckt gate (67) (3) outval : 55515000
+ckt gate (68) (2) inval 0: 41155555
+ckt gate (68) (2) inval 1: 11511000
+ckt gate (68) (2) outval : 54444555
+ckt gate (69) (2) inval 0: 55515000
+ckt gate (69) (2) inval 1: 11111000
+ckt gate (69) (2) outval : 44444555
+ckt gate (70) (9) inval 0: 54444555
+ckt gate (70) (9) inval 1: 0000
+ckt gate (70) (9) outval : 54444555
+ckt gate (71) (9) inval 0: 44444555
+ckt gate (71) (9) inval 1: 0000
+ckt gate (71) (9) outval : 44444555
+ckt gate (72) (9) inval 0: 45555555
+ckt gate (72) (9) inval 1: 0000
+ckt gate (72) (9) outval : 45555555
+ckt gate (73) (9) inval 0: 55555555
+ckt gate (73) (9) inval 1: 0000
+ckt gate (73) (9) outval : 55555555
+ckt gate (74) (9) inval 0: 40555
+ckt gate (74) (9) inval 1: 0000
+ckt gate (74) (9) outval : 40555
+ckt gate (75) (9) inval 0: 15555555
+ckt gate (75) (9) inval 1: 0000
+ckt gate (75) (9) outval : 15555555
+ckt gate (76) (9) inval 0: 5551555
+ckt gate (76) (9) inval 1: 0000
+ckt gate (76) (9) outval : 5551555
+
+Gate 67 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 66 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 65 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 63 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 62 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 61 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 60 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 60 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 60 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 59 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 58 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 57 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 56 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 56 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 55 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 55 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 55 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 51 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 51 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 51 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 49 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 49 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 49 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 47 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 47 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 46 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 46 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 46 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 45 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 44 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 44 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 44 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 43 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 42 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 40 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 40 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 40 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 39 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 37 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 36 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 36 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 35 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 35 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 35 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 34 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 33 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 33 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 54145555
+in detected loop!
+
+Gate 32 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 32 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 54044555
+in detected loop!
+
+Gate 30 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 30 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 29 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 28 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 27 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 26 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 26 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 26 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 24 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 22 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 22 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 22 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 21 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 21 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 21 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 21 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 20 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 20 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 19 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 19 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 19 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 19 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 18 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 18 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 18 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 18 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 17 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 54044555
+in detected loop!
+
+Gate 16 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 54145555
+in detected loop!
+
+Gate 16 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 16 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 54044555
+in detected loop!
+
+Gate 16 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 15 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 15 input 0 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 14 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 14 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 13 output SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 54044555
+in detected loop!
+
+Gate 13 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 13 input 1 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 13 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 54044555
+in detected loop!
+
+Gate 12 input 0 SA1:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 11 input 1 SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+
+Gate 10 output SA0:
+golden pattern for PO 0 in segment 2: 54444000
+Output value   for PO 0 in segment 2: 44044555
+in detected loop!
+faults remaining after segment 2: 
+Finished Simulation.
+
+Simulation Time = 0.002999 sec
+
+
+Writing Output:  x2.out
+

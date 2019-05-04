@@ -1,0 +1,55 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Layout -key child_console_size_x -value 1535
+gui_set_state_value -category Layout -key child_console_size_y -value 179
+gui_set_state_value -category Layout -key child_data_size_x -value 287
+gui_set_state_value -category Layout -key child_data_size_y -value 526
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 174
+gui_set_state_value -category Layout -key child_hier_size_y -value 526
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1077
+gui_set_state_value -category Layout -key child_source_size_y -value 521
+gui_set_state_value -category Layout -key child_wave_colname -value 230
+gui_set_state_value -category Layout -key child_wave_colvalue -value 211
+gui_set_state_value -category Layout -key child_wave_left -value 445
+gui_set_state_value -category Layout -key child_wave_right -value 1085
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 23
+gui_set_state_value -category Layout -key main_size_x -value 1535
+gui_set_state_value -category Layout -key main_size_y -value 823
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1540
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 700
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 0
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 23
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1535
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 823
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe simv -args {-ucligui  } -dir .
+run
+gui_list_select -id Data.1 -selected  { {TOP_ctl._bistpass[0:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP_ctl._bistpass[0:0]}  {TOP_ctl._bistdone[0:0]}  {TOP_ctl._cut_po[48:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP_ctl._bistpass[0:0]}  {TOP_ctl._bistdone[0:0]}  {TOP_ctl._cut_po[48:0]}  {TOP_ctl._clk[0:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP_ctl._bistpass[0:0]}  {TOP_ctl._bistdone[0:0]}  {TOP_ctl._cut_po[48:0]}  {TOP_ctl._clk[0:0]}  {TOP_ctl._rst[0:0]}   }
+gui_list_select -id Data.1 -selected  { {TOP_ctl._bistpass[0:0]}  {TOP_ctl._bistdone[0:0]}  {TOP_ctl._cut_po[48:0]}  {TOP_ctl._clk[0:0]}  {TOP_ctl._rst[0:0]}  {TOP_ctl._bistmode[0:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {TOP_ctl._bistpass[0:0]} {TOP_ctl._bistdone[0:0]} {TOP_ctl._cut_po[48:0]} {TOP_ctl._clk[0:0]} {TOP_ctl._rst[0:0]} {TOP_ctl._bistmode[0:0]} } -insertionbar
+gui_sim_restart
+gui_wv_scroll_hslidermove -id  Wave.1 27
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_close_window -window TopLevel.2

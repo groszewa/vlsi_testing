@@ -1,0 +1,293 @@
+# //  ModelSim SE-64 10.6 Dec 13 2016Linux 2.6.32-642.11.1.el6.x86_64
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# Model Technology ModelSim SE-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+# Start time: 00:53:56 on Apr 21,2017
+# vlog -reportprogress 300 ./testbench.v ./scan_cut.v ./project.v 
+# -- Compiling module TOP_ctl
+# -- Compiling module MUX21H
+# -- Compiling module scan_dff
+# -- Compiling module scan_cut
+# -- Compiling module bist_hardware
+# -- Compiling module chip
+# -- Compiling module bist_controller
+# -- Compiling module lfsr
+# -- Compiling module misr
+# 
+# Top level modules:
+# 	TOP_ctl
+# End time: 00:53:56 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt TOP_ctl 
+# Start time: 00:53:56 on Apr 21,2017
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.TOP_ctl
+# Loading work.TOP_ctl
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.chip
+# Loading work.chip
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.scan_cut
+# Loading work.scan_cut
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.scan_dff
+# Loading work.scan_dff
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.MUX21H
+# Loading work.MUX21H
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.bist_hardware
+# Loading work.bist_hardware
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.bist_controller
+# Loading work.bist_controller
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.lfsr
+# Loading work.lfsr
+# Refreshing /home/ecelrc/students/agroszewski/vlsi_testing/project2/victor_v3/work.misr
+# Loading work.misr
+# PI                                    PO
+# 
+# Injecting No Fault into CUT:  Fault-Free BIST Simulation
+# Starting BIST run
+# Completed Bist...  BIST Passed: 1
+# 
+# FF2
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# FF3
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II282 = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n482gat = 0
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n226gat = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Sneaking Fault free case in here...
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1275gat = 0
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1582gat = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4020 = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n745gat = 1
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1794gat = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4623 = 1
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4759 = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injected          13 faults
+# Detected          13 faults
+# ** Note: $finish    : ./testbench.v(248)
+#    Time: 1591950 ns  Iteration: 3  Instance: /TOP_ctl
+# 1
+# Break in Module TOP_ctl at ./testbench.v line 248
+add wave -position insertpoint  \
+sim:/TOP_ctl/testchip/bist/u1/u1/lfsr
+add wave -position insertpoint  \
+sim:/TOP_ctl/testchip/bist/u1/SCAN_CHAIN_LENGTH \
+sim:/TOP_ctl/testchip/bist/u1/LFSR_R \
+sim:/TOP_ctl/testchip/bist/u1/TOTAL_PATTERNS \
+sim:/TOP_ctl/testchip/bist/u1/START \
+sim:/TOP_ctl/testchip/bist/u1/SHIFT_IN \
+sim:/TOP_ctl/testchip/bist/u1/EVAL_PAT \
+sim:/TOP_ctl/testchip/bist/u1/SHIFT_OUT_LAST \
+sim:/TOP_ctl/testchip/bist/u1/DONE \
+sim:/TOP_ctl/testchip/bist/u1/PAT_RESTART1 \
+sim:/TOP_ctl/testchip/bist/u1/PAT_RESTART2 \
+sim:/TOP_ctl/testchip/bist/u1/cut_scanmode \
+sim:/TOP_ctl/testchip/bist/u1/cut_sdi \
+sim:/TOP_ctl/testchip/bist/u1/bistdone \
+sim:/TOP_ctl/testchip/bist/u1/bistpass \
+sim:/TOP_ctl/testchip/bist/u1/clk \
+sim:/TOP_ctl/testchip/bist/u1/rst \
+sim:/TOP_ctl/testchip/bist/u1/bistmode \
+sim:/TOP_ctl/testchip/bist/u1/cut_sdo \
+sim:/TOP_ctl/testchip/bist/u1/ff_iter \
+sim:/TOP_ctl/testchip/bist/u1/out_ready \
+sim:/TOP_ctl/testchip/bist/u1/state \
+sim:/TOP_ctl/testchip/bist/u1/lfsr_en \
+sim:/TOP_ctl/testchip/bist/u1/misr_en \
+sim:/TOP_ctl/testchip/bist/u1/misr_signature \
+sim:/TOP_ctl/testchip/bist/u1/golden_signature \
+sim:/TOP_ctl/testchip/bist/u1/init \
+sim:/TOP_ctl/testchip/bist/u1/out \
+sim:/TOP_ctl/testchip/bist/u1/out_misr \
+sim:/TOP_ctl/testchip/bist/u1/start_fsm \
+sim:/TOP_ctl/testchip/bist/u1/lfsr_misr_reset \
+sim:/TOP_ctl/testchip/bist/u1/sdi_count \
+sim:/TOP_ctl/testchip/bist/u1/sdo_count \
+sim:/TOP_ctl/testchip/bist/u1/pattern_out \
+sim:/TOP_ctl/testchip/bist/u1/last_shift_out_count \
+sim:/TOP_ctl/testchip/bist/u1/total_sdo_count \
+sim:/TOP_ctl/testchip/bist/u1/lfsr_misr_rest
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run -all
+# PI                                    PO
+# 
+# Injecting No Fault into CUT:  Fault-Free BIST Simulation
+# Starting BIST run
+# Completed Bist...  BIST Passed: 1
+# 
+# FF2
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# FF3
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II282 = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n482gat = 0
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n226gat = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Sneaking Fault free case in here...
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1275gat = 0
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1582gat = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4020 = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n745gat = 1
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1794gat = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4623 = 1
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4759 = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injected          13 faults
+# Detected          13 faults
+# ** Note: $finish    : ./testbench.v(248)
+#    Time: 1591950 ns  Iteration: 3  Instance: /TOP_ctl
+# 1
+# Break in Module TOP_ctl at ./testbench.v line 248
+add wave -position insertpoint  \
+sim:/TOP_ctl/_rst
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run -all
+# PI                                    PO
+# 
+# Injecting No Fault into CUT:  Fault-Free BIST Simulation
+# Starting BIST run
+# Completed Bist...  BIST Passed: 1
+# 
+# FF2
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# FF3
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II282 = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n482gat = 0
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n226gat = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Sneaking Fault free case in here...
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1275gat = 0
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1582gat = 1
+# Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4020 = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n745gat = 1
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.n1794gat = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4623 = 1
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injecting Fault into CUT:  testchip.circuit.II4759 = 0
+#  Starting BIST run
+# Completed Bist...  BIST Passed: 0
+# 
+# Injected          13 faults
+# Detected          13 faults
+# ** Note: $finish    : ./testbench.v(248)
+#    Time: 1591950 ns  Iteration: 3  Instance: /TOP_ctl
+# 1
+# Break in Module TOP_ctl at ./testbench.v line 248
+# End time: 22:30:44 on Apr 21,2017, Elapsed time: 21:36:48
+# Errors: 0, Warnings: 0

@@ -1,0 +1,10 @@
+./3fsim ../data/c1908.blif ../data/c1908.pat c1908.out
+diff c1908.out ../data/c1908.gold.out
+./3fsim ../data/c7552.blif ../data/c7552.pat c7552.out
+diff c7552.out ../data/c7552.gold.out
+./3fsim ../data/c2670.blif ../data/c2670.pat c2670.out
+diff c2670.out ../data/c2670.gold.out
+./3fsim ../data/s9234.blif ../data/s9234.pat s9234.out
+diff s9234.out ../data/s9234.gold.out
+./3fsim ../data/s38417.blif ../data/s38417.pat s38417.out
+diff s38417.out ../data/s38417.gold.out
